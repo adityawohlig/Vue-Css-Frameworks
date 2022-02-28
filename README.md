@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-Bootstrap, Bootstrap Vue, Vuetify, Vuesax, Vuelidate Used
+Bootstrap, Bootstrap Vue, Vuetify, Vuesax, Vuelidate Used for Vue 2 Project
 npm install
 ```
 
