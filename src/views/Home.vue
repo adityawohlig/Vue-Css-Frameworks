@@ -1,18 +1,26 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+  <base-carousel />
+    <div class="card my-3 mx-auto" style="width: 18rem;">
+  <img class="card-img-top" src="https://vuesax.com/foto2.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
+</div></div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import BaseCarousel from '../components/BaseCarousel.vue'
+  // import HelloWorld from '../components/HelloWorld'
 
-export default {
-  name: 'Home',
-  components: {
-    HelloWorld
+  export default {
+  components: { BaseCarousel },
+    name: 'Home',
+
+    // components: {
+      // HelloWorld,
+    // },
   }
-}
 </script>
